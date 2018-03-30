@@ -60,33 +60,32 @@ body{
   /* Second Section Featured Tea */
 
   .featuredtea{
+    margin: 50px;
     display: inline;
     width: 1000px;
+
   }
 
     /* Tea Content */
 
-    .ctea{
+    .containertea{
       display: flex;
       flex-wrap: wrap;
       align-items: center;
       justify-content: center;
     }
       /* Each Tea */
-      .etea{
+      .eachtea{
         display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        width: 300px;
-        margin: 0px 15px;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 15px;
       }
-      .h4{
-        display: flex;
-        align-items: center;
-        margin-top: 10px;
+      .eachtea span{
+        font-weight: bold;
+        margin: 10px;
       }
-        .etea img{
+        .eachtea img{
           width: 300px;
           height: 200px;
         }
