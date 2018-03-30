@@ -1,0 +1,1 @@
+I made some changes of the original website/activity of code academy, and for me looks better like this, hope you guys like it.
