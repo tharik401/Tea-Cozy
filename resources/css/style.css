@@ -35,8 +35,15 @@ body{
     header a{
       color: seashell;
     }
+  /* Main */
+  main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 
+  }
   /* first section Our Mission  */
+
 
   .mission{
     margin-top: 69px;
@@ -59,7 +66,7 @@ body{
 
   /* Second Section Featured Tea */
 
-  .featuredtea{
+  #featuredtea{
     margin: 50px;
     display: inline;
     width: 1000px;
@@ -92,28 +99,32 @@ body{
 
   /* Third Section "Location" */
 
-  .location{
+  #location{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     background-image: url("../images/location-background.jpg");
-    height: 500px;
+    height: 568px;
     width: 1200px;
+    border: 1px solid white;
   }
-    .location h2{
-      border: 1px solid white;
+     #location h2{
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      border: 1px solid black;
+
     }
     .adresscontent{
-      border: 1px solid white;
       display: flex;
-      justify-content: center;
+      border: 1px solid white;
+      height: 300px;
     }
     .adressblock{
-      margin:0 40px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      /* display: block; */
+      margin: 0 20px;
       width: 300px;
       background-color: black;
       opacity: 1;
