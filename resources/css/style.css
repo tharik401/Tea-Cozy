@@ -89,3 +89,32 @@ body{
           width: 300px;
           height: 200px;
         }
+
+  /* Third Section "Location" */
+
+  .location{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/location-background.jpg");
+    height: 500px;
+    width: 1200px;
+  }
+    .location h2{
+      border: 1px solid white;
+    }
+    .adresscontent{
+      border: 1px solid white;
+      display: flex;
+      justify-content: center;
+    }
+    .adressblock{
+      margin:0 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 300px;
+      background-color: black;
+      opacity: 1;
+    }
