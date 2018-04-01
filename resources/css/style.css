@@ -40,6 +40,7 @@ main{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  align-items: center;
 
   }
   /* first section Our Mission  */
@@ -99,42 +100,41 @@ main{
   /* Third Section "Location" */
 
   #location{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    display: block;
+    padding-top: 70px;
     background-image: url("../images/location-background.jpg");
     height: 568px;
     width: 1200px;
-    border: 1px solid white;
-  }
-     #location h2{
+    }
+     #location h2 {
       display: block;
       width: 100%;
       margin: 10px 0;
-      border: 1px solid black;
-
     }
     .adresscontent{
       display: flex;
-      border: 1px solid white;
+      justify-content: center;
       height: 300px;
     }
     .adressblock{
       /* display: block; */
-      margin: 0 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 10px 20px;
       width: 300px;
       background-color: black;
       opacity: 1;
     }
+      .adressblock h3 {
+        margin: 0px;
+        padding: 10px;
+      }
   /* Fourth Section "Contact" */
   #contat{
     height: 200px;
   }
-    #contact h2{
-      margin-top: 10px;
-    }
+
 
   /* Footer Section */
   footer{
