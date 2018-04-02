@@ -68,11 +68,15 @@ main{
   /* Second Section Featured Tea */
 
   #featuredtea{
-    margin: 50px;
+    padding: 70px 0px;
     display: inline;
     width: 1000px;
 
   }
+  /* #featuredtea h2{
+    padding-top: 70px;
+
+  } */
 
     /* Tea Content */
 
