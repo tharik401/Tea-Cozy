@@ -73,11 +73,6 @@ main{
     width: 1000px;
 
   }
-  /* #featuredtea h2{
-    padding-top: 70px;
-
-  } */
-
     /* Tea Content */
 
     .containertea{
@@ -116,13 +111,14 @@ main{
       width: 100%;
       margin: 10px 0;
     }
+    /* Block Container */
     .adresscontent{
       display: flex;
       justify-content: center;
       height: 300px;
     }
+    /* each adress block */
     .adressblock{
-      /* display: block; */
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -136,7 +132,7 @@ main{
         padding: 10px;
       }
   /* Fourth Section "Contact" */
-  #contat{
+  #contact{
     height: 200px;
   }
 
