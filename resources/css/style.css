@@ -12,7 +12,7 @@ body{
   flex-wrap: wrap;
 
 }
-  /* Header */
+/* Header */
   header{
     display: flex;
     position: fixed;
@@ -35,12 +35,11 @@ body{
     header a{
       color: seashell;
     }
-  /* Main */
+/* Main Content */
 main{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  align-items: center;
 
   }
   /* first section Our Mission  */
@@ -69,26 +68,20 @@ main{
 
   #featuredtea{
     padding: 70px 0px;
-    display: inline;
     width: 1000px;
 
   }
-  /* #featuredtea h2 {
-    padding-top: 70px;
-  } */
     /* Tea Content */
 
     .containertea{
       display: flex;
       flex-wrap: wrap;
-      align-items: center;
       justify-content: center;
     }
       /* Each Tea */
       .eachtea{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
         padding: 15px;
       }
       .eachtea span{
@@ -103,7 +96,6 @@ main{
   /* Third Section "Location" */
 
   #location{
-    display: block;
     padding-top: 70px;
     background-image: url("../images/location-background.jpg");
     height: 568px;
@@ -140,7 +132,7 @@ main{
   }
 
 
-  /* Footer Section */
+/* Footer Section */
   footer{
     width: 100%;
     margin-left: 20px;
